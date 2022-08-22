@@ -42,7 +42,7 @@ const CoinId = () => {
       <h1>{coinName}</h1>
       <img src={image} />
       <p>{coinDescription}</p>
-      <a href='https://chain.com/'>{link}</a>
+      <a href={link}>{link}</a>
     </div>
   );
 }
